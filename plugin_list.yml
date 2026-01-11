@@ -1,0 +1,19 @@
+#This configuration file allows you to control which plugins are loaded on your server.
+
+#List behaviour
+# - blacklist: Only plugins which ARE NOT listed will load.
+# - whitelist: Only plugins which ARE listed will load.
+mode: whitelist
+#List names of plugins here.
+plugins:
+  - DevTools
+  - DEVirion
+  - FI-Lang
+  #- Mail #Need FI-CustomAddons
+  #- PlayerDataManager
+  - MOTDShuffle
+  - InvSee
+  #- ResourcePackLoader
+  - NameSpaceRemover
+  - lmao
+  - FartBattle
